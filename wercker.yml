@@ -13,7 +13,7 @@ build:
     - script:
         name: run gradle
         code: |
-          gradle --help
+          gradle -v
           gradle
 
 
