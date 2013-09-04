@@ -10,6 +10,8 @@ build:
           export GRADLE_HOME=/tmp/gradle-1.7
           export PATH=$PATH:$GRADLE_HOME/bin
           export
+          sudo updatedb
+          locate 22.0.5
     - script:
         name: run gradle
         code: |
