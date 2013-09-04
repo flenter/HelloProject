@@ -10,7 +10,7 @@ build:
           export GRADLE_HOME=/tmp/gradle-1.7
           export PATH=$PATH:$GRADLE_HOME/bin
           export
-          ls -la ~
+          ls -la ~/.android
     - script:
         name: run gradle
         code: |
