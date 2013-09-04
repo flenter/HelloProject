@@ -1,0 +1,13 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1378308153000 335 9da7f6d67e597fb6561d11b74dda1c333bf17dba /Users/jacco/dev/wercker/HelloProject/Hello/build/res/all/debug/menu/greet.xml
+1378308153000 3726 795018d5bdf7df9cf7a33877a90812d4b13c8a27 /Users/jacco/dev/wercker/HelloProject/Hello/build/res/all/debug/drawable-xhdpi/ic_launcher.png
+1378308153000 320 a1e3e743219a109997d40b24c297bf7d7abe76e4 /Users/jacco/dev/wercker/HelloProject/Hello/build/res/all/debug/values-v14/values.xml
+1378308153000 306 ab868aca229ce7d82dd96d5b8fb70fa73eb875bd /Users/jacco/dev/wercker/HelloProject/Hello/build/res/all/debug/values-v11/values.xml
+1378308153000 1079 5a21cfaf188f686455ba37b376b1eabb8930a276 /Users/jacco/dev/wercker/HelloProject/Hello/build/res/all/debug/values/values.xml
+1378308153000 755 871fd0c2d63ff9a2d3e7f611c722e8bddb8bedfc /Users/jacco/dev/wercker/HelloProject/Hello/build/res/all/debug/layout/activity_greeting.xml
+1378308153000 2716 12cb8087e1d6d776cf513d9ebc656e9d85c615a1 /Users/jacco/dev/wercker/HelloProject/Hello/build/res/all/debug/drawable-hdpi/ic_launcher.png
+1378308153000 6206 b6a23c4aef928b0a441c60719495121796a46546 /Users/jacco/dev/wercker/HelloProject/Hello/build/res/all/debug/drawable-xxhdpi/ic_launcher.png
+1378308153000 1710 c8b4fdef45f1b12286d7371f212e28fc03025bb5 /Users/jacco/dev/wercker/HelloProject/Hello/build/res/all/debug/drawable-mdpi/ic_launcher.png
+1378308153000 237 a68d732e8e59c06394e7678b0c55662e233ab115 /Users/jacco/dev/wercker/HelloProject/Hello/build/res/all/debug/values-sw720dp-land/values.xml
