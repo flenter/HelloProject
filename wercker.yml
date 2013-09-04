@@ -11,6 +11,7 @@ build:
           export PATH=$PATH:$GRADLE_HOME/bin
           export
           ls -la ~/.android/avd/
+          ls -la /pipeline/build/
     - script:
         name: run gradle
         code: |
