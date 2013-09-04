@@ -1,15 +1,15 @@
 # incremental data. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-1378308154000 469 5d1fd0e94a9a904ba1297f1c45da2bcb6ac314fe /Users/jacco/dev/wercker/HelloProject/Hello/build/classes/debug/com/wercker/world/R$string.class
-1378308154000 337 fa580543241f3dc988882fecfdf1c2299892873e /Users/jacco/dev/wercker/HelloProject/Hello/build/classes/debug/com/wercker/world/R$attr.class
-1378308154000 343 e67b4c6c4ced846937bd980e640d391142c90f92 /Users/jacco/dev/wercker/HelloProject/Hello/build/classes/debug/com/wercker/world/BuildConfig.class
-1378308154000 428 23a89e77295041e7147e8b8a3f44c0452295677b /Users/jacco/dev/wercker/HelloProject/Hello/build/classes/debug/com/wercker/world/R$style.class
-1378308154000 386 2ebc144e907b200f9decc82fb46dc6107b90b5d8 /Users/jacco/dev/wercker/HelloProject/Hello/build/classes/debug/com/wercker/world/R$menu.class
-1378308154000 404 aa6a02a741b5c2e7f0081a1ff64626fe9e58a047 /Users/jacco/dev/wercker/HelloProject/Hello/build/classes/debug/com/wercker/world/R$layout.class
+1378321598000 469 5d1fd0e94a9a904ba1297f1c45da2bcb6ac314fe /Users/jacco/dev/wercker/HelloProject/Hello/build/classes/debug/com/wercker/world/R$string.class
+1378321598000 337 fa580543241f3dc988882fecfdf1c2299892873e /Users/jacco/dev/wercker/HelloProject/Hello/build/classes/debug/com/wercker/world/R$attr.class
+1378321598000 343 e67b4c6c4ced846937bd980e640d391142c90f92 /Users/jacco/dev/wercker/HelloProject/Hello/build/classes/debug/com/wercker/world/BuildConfig.class
+1378321598000 428 23a89e77295041e7147e8b8a3f44c0452295677b /Users/jacco/dev/wercker/HelloProject/Hello/build/classes/debug/com/wercker/world/R$style.class
+1378321598000 386 2ebc144e907b200f9decc82fb46dc6107b90b5d8 /Users/jacco/dev/wercker/HelloProject/Hello/build/classes/debug/com/wercker/world/R$menu.class
+1378321598000 404 aa6a02a741b5c2e7f0081a1ff64626fe9e58a047 /Users/jacco/dev/wercker/HelloProject/Hello/build/classes/debug/com/wercker/world/R$layout.class
 1369432937000 490914 3fe75433da602500cc71fcc1c46e5550291dd45d /Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-v4/13.0.0/support-v4-13.0.0.jar
-1378308154000 667 1f2c0baa92d6c1a8cd5e279b1ab8c1205f6478d9 /Users/jacco/dev/wercker/HelloProject/Hello/build/classes/debug/com/wercker/world/R.class
-1378308154000 404 02240923064fc3b050a1bbe70a80448393d8d34c /Users/jacco/dev/wercker/HelloProject/Hello/build/classes/debug/com/wercker/world/R$drawable.class
-1378308154000 390 f73dcc6242b7b33e8480cc488a8c45067f287282 /Users/jacco/dev/wercker/HelloProject/Hello/build/classes/debug/com/wercker/world/R$id.class
-1378308154000 458 0365f8e7c541e1c213459b280ff2259701a40a0e /Users/jacco/dev/wercker/HelloProject/Hello/build/classes/debug/com/wercker/world/R$dimen.class
-1378308833000 818 56c3bc694d46652fd2ba6e2a7fc6bd6af0259f30 /Users/jacco/dev/wercker/HelloProject/Hello/build/classes/debug/com/wercker/world/GreetActivity.class
+1378321598000 667 1f2c0baa92d6c1a8cd5e279b1ab8c1205f6478d9 /Users/jacco/dev/wercker/HelloProject/Hello/build/classes/debug/com/wercker/world/R.class
+1378321598000 404 02240923064fc3b050a1bbe70a80448393d8d34c /Users/jacco/dev/wercker/HelloProject/Hello/build/classes/debug/com/wercker/world/R$drawable.class
+1378321598000 390 f73dcc6242b7b33e8480cc488a8c45067f287282 /Users/jacco/dev/wercker/HelloProject/Hello/build/classes/debug/com/wercker/world/R$id.class
+1378321598000 458 0365f8e7c541e1c213459b280ff2259701a40a0e /Users/jacco/dev/wercker/HelloProject/Hello/build/classes/debug/com/wercker/world/R$dimen.class
+1378321598000 818 56c3bc694d46652fd2ba6e2a7fc6bd6af0259f30 /Users/jacco/dev/wercker/HelloProject/Hello/build/classes/debug/com/wercker/world/GreetActivity.class

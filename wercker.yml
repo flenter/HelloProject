@@ -13,7 +13,6 @@ build:
     - script:
         name: run gradle
         code: |
-          gradle -v
-          gradle
+          gradle --full-stacktrace
 
 
