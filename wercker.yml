@@ -24,6 +24,11 @@ build:
         code: |
           rm local.properties
     - script:
+        name: android project
+        code: |
+          android update project --name Hello
+    - script:
         name: run gradle
         code: |
-          gradle --full-stacktrace -q
+          gradle -v
+          gradle --refresh-dependencies --rerun-tasks -q --full-stacktrace

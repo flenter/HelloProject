@@ -13,7 +13,7 @@ repositories {
 }
 
 android {
-    compileSdkVersion 22
+    compileSdkVersion 18
     buildToolsVersion "22.0.5"
 
     defaultConfig {
