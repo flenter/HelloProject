@@ -20,9 +20,9 @@ build:
           ls -la $ANDROID_HOME
           ls -la $ANDROID_HOME/extras
     - script:
-        name: set local.properties
+        name: remove local.properties
         code: |
-          echo "sdk.dir=$ANDROID_HOME" > local.properties
+          rm local.properties
     - script:
         name: run gradle
         code: |
