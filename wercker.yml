@@ -17,3 +17,7 @@ build:
         code: |
           export ANDROID_HOME="/home/ubuntu/android-sdk-linux"
           export PATH="${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools"
+    - script:
+        name: run gradle
+        code: |
+          gradle --full-stacktrace -q
