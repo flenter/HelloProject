@@ -20,4 +20,4 @@ build:
     - script:
         name: run gradle
         code: |
-          gradle --full-stacktrace -q
+          gradle --full-stacktrace -q --debug
