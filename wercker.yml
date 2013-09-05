@@ -20,6 +20,10 @@ build:
           ls -la $ANDROID_HOME
           ls -la $ANDROID_HOME/extras
     - script:
+        name: set local.properties
+        code: |
+          echo "sdk.dir=`$ANDROID_HOME`%" > local.properties
+    - script:
         name: run gradle
         code: |
           gradle --full-stacktrace -q
