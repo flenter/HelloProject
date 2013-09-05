@@ -22,7 +22,7 @@ build:
     - script:
         name: set local.properties
         code: |
-          echo "sdk.dir=$ANDROID_HOME%" > local.properties
+          echo "sdk.dir=$ANDROID_HOME" > local.properties
     - script:
         name: run gradle
         code: |
