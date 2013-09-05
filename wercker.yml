@@ -1,4 +1,4 @@
-box: pjvds/android@0.0.7
+box: flenter/android
 build:
   steps:
     - install-packages:
