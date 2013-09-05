@@ -22,7 +22,8 @@ build:
     - script:
         name: remove local.properties
         code: |
-          rm local.properties
+          ls -la
+          rm local.propertie
     - script:
         name: android project
         code: |
