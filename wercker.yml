@@ -2,6 +2,11 @@ box: flenter/android
 build:
   steps:
     - script:
+        name: set android env variables
+        code: |
+          export ANDROID_HOME="/home/ubuntu/android-sdk-linux"
+          export PATH="${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools"
+    - script:
         name: install gradle
         code: |
           cd /tmp
@@ -27,13 +32,6 @@ build:
           cd $ANDROID_HOME
           expect /pipeline/build/android-update.exp
           cd $WERCKER_SOURCE_DIR
-    - script:
-        name: add extra env variables
-        code: |
-          export ANDROID_HOME="/home/ubuntu/android-sdk-linux"
-          export PATH="${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools"
-          ls -la $ANDROID_HOME
-          ls -la $ANDROID_HOME/extras
     - script:
         name: remove local.properties
         code: |
