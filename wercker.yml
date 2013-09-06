@@ -40,9 +40,9 @@ build:
     - script:
         name: android project
         code: |
-          android update project --name Hello --path .
+          android update project --name Hello --path ./Hello
     - script:
         name: run gradle
         code: |
           gradle -v
-          gradle --refresh-dependencies --rerun-tasks -q --full-stacktrace
+          gradle --refresh-dependencies --rerun-tasks --full-stacktrace
