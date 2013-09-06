@@ -45,4 +45,4 @@ build:
         name: run gradle
         code: |
           gradle -v
-          gradle --refresh-dependencies --rerun-tasks --full-stacktrace
+          gradle --refresh-dependencies --rerun-tasks --full-stacktrace build
