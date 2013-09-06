@@ -36,7 +36,7 @@ build:
         name: remove local.properties
         code: |
           ls -la
-          rm local.propertie
+          rm local.properties
     - script:
         name: android project
         code: |
