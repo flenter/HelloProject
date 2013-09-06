@@ -13,6 +13,21 @@ build:
           ls -la ~/.android/avd/
           ls -la /pipeline/build/
     - script:
+        name: add more build tools
+        code: |
+          cd /tmp/
+          wget https://dl-ssl.google.com/android/repository/build-tools_r18.0.1-linux.zip
+          unzip build-tools_r18.0.1-linux.zip -d $ANDROID_HOME
+          mkdir -p $ANDROID_HOME/build-tools/
+          mv $ANDROID_HOME/android-4.3 $ANDROID_HOME/build-tools/18.0.1
+          cd $WERCKER_SOURCE_DIR
+    - script:
+        name: update sdk
+        code: |
+          cd $ANDROID_HOME
+          expect /pipeline/build/android-update.exp
+          cd $WERCKER_SOURCE_DIR
+    - script:
         name: add extra env variables
         code: |
           export ANDROID_HOME="/home/ubuntu/android-sdk-linux"
