@@ -40,7 +40,7 @@ build:
     - script:
         name: android project
         code: |
-          android update project --name Hello
+          android update project --name Hello --path .
     - script:
         name: run gradle
         code: |
