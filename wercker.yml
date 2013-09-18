@@ -5,7 +5,6 @@ build:
         name: show info
         code: |
           export
-          cat $HOME/.bashrc
 
     - script:
         name: run gradle
