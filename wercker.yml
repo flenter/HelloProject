@@ -6,25 +6,10 @@ build:
         code: |
           export
     - script:
-        name: remove local.properties
-        code: |
-          ls -la
-    # rm local.properties
-    - script:
-        name: android project
-        code: |
-          android update project --name Hello --path ./Hello
-
-    - script:
-        name: show build folder
-        code: |
-          ls -la Hello/build
-    - script:
         name: run gradle
         code: |
           gradle -v
           gradle --refresh-dependencies --rerun-tasks --full-stacktrace build
-
     - script:
         name: show build result
         code: |
