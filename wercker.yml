@@ -1,11 +1,26 @@
-box: flenter/android@0.0.11-rc1
+box: flenter/android
 build:
   steps:
     - script:
-        name: show info
+        name: update sdk
         code: |
-          export
+          cd $ANDROID_HOME
+          expect /pipeline/build/android-update.exp
+          cd $WERCKER_SOURCE_DIR
+    - script:
+        name: remove local.properties
+        code: |
+          ls -la
+    # rm local.properties
+    - script:
+        name: android project
+        code: |
+          android update project --name Hello --path ./Hello
 
+    - script:
+        name: show build folder
+        code: |
+          ls -la Hello/build
     - script:
         name: run gradle
         code: |
