@@ -5,7 +5,7 @@ build:
         name: debug info
         code: |
           export
-   - script:
+    - script:
         name: remove local.properties
         code: |
           ls -la
