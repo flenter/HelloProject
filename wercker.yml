@@ -5,13 +5,7 @@ build:
         name: debug info
         code: |
           export
-    - script:
-        name: update sdk
-        code: |
-          cd $ANDROID_HOME
-          expect /pipeline/build/android-update.exp
-          cd $WERCKER_SOURCE_DIR
-    - script:
+   - script:
         name: remove local.properties
         code: |
           ls -la
