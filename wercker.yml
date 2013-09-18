@@ -1,4 +1,4 @@
-box: flenter/android@0.1.1-alpha
+box: flenter/android@0.0.11-alpha
 build:
   steps:
     - script:
