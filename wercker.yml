@@ -1,4 +1,4 @@
-box: flenter/android
+box: wercker/android
 build:
   steps:
     - script:
